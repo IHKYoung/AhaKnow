@@ -20,10 +20,10 @@ fake = Faker()
 # dont use fake
 def fake_admin():
     admin = Admin(
-        username='fly',
-        blog_title='Spring Fly',
+        username='YOUNG',
+        blog_title='AhaKnow',
         blog_sub_title='Just for Writing.',
-        name='Fly',
+        name='Young',
         body='From here, to write there.'
     )
     db.session.add(admin)

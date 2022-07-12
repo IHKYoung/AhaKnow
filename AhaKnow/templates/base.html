@@ -7,7 +7,7 @@
     {% block head %}
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% block title %}{% endblock title %} | {{ admin.blog_title|default('Spring Fly') }}</title>
+        <title>{% block title %}{% endblock title %} | {{ admin.blog_title|default('AhaKnow') }}</title>
         <link rel="icon" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
         <link rel="stylesheet"
               href="{{ url_for('static', filename='css/%s.bootstrap.min.css' % request.cookies.get('theme', 'sketchy')) }}"

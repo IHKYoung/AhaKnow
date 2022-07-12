@@ -20,7 +20,7 @@ else:
 
 class BaseConfig(object):
     # use uuid4
-    SECRET_KEY = os.getenv('SECRET_KEY', 'spring fly')
+    SECRET_KEY = os.getenv('SECRET_KEY', 'AhaKnow YOUNG')
 
     DEBUG_TB_INTERCEPT_REDIRECTS = False  # debug-tool
 
@@ -34,7 +34,7 @@ class BaseConfig(object):
     MAIL_USE_SSL = True
     MAIL_USERNAME = os.getenv('MAIL_USERNAME')
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
-    MAIL_DEFAULT_SENDER = ('Spring Fly', MAIL_USERNAME)
+    MAIL_DEFAULT_SENDER = ('AhaKnow', MAIL_USERNAME)
 
     # Blog Basic Info
     BLOG_EMAIL = os.getenv('BLOG_EMAIL')

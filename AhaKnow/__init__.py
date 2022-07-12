@@ -76,7 +76,7 @@ def register_logging(app):
         mailhost=app.config['MAIL_SERVER'],
         fromaddr=app.config['MAIL_USERNAME'],
         toaddrs=app.config['BLOG_EMAIL'],
-        subject='Spring Fly occur Error',
+        subject='AhaKnow occur Error',
         credentials=(app.config['MAIL_USERNAME'], app.config['MAIL_PASSWORD']))
     mail_handler.setLevel(logging.ERROR)
     mail_handler.setFormatter(request_formatter)
