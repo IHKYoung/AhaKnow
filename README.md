@@ -5,7 +5,7 @@
 
 具体使用方法待补充……
 
-[效果参考](ahaknow.com) 可能需要:rocket:
+[效果参考](https://ahaknow.com) 可能需要:rocket:
 
 ## TODO
 - 回到Page Blog时代（考虑充分利用Github Pages）
