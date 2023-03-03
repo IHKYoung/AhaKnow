@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+    @Author: Zeal Young
+    @URL: https://ahaknow.com
+    @Create: 2021/9/23 10:56
+"""
+import os
+from dotenv import load_dotenv
+
+from AhaKnow import create_app
+
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+if os.path.exists(dotenv_path):
+    load_dotenv(dotenv_path)
+
+app = create_app('production')
