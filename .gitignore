@@ -1,6 +1,7 @@
 # Hide file
 .DS_Store
 .code
+.idea
 
 # Python.gitignore
 # Byte-compiled / optimized / DLL files
